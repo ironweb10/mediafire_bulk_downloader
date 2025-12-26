@@ -1,14 +1,13 @@
 # Mediafire Bulk Downloader
 
-> [!WARNING]
-> **I made a rust async version of this, check it out [HERE](https://github.com/nickoehler/mediafire_rs)**
+
 
 This Python script enables bulk downloading of files and folders from Mediafire.
 
 ## Quick Installation
 
 ```bash
-pip install git+https://github.com/NicKoehler/mediafire_bulk_downloader.git
+pip install git+https://github.com/ironweb10/mediafire_bulk_downloader.git
 ```
 
 ## Setup
@@ -16,7 +15,7 @@ pip install git+https://github.com/NicKoehler/mediafire_bulk_downloader.git
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/NicKoehler/mediafire_bulk_downloader.git
+    git clone https://github.com/ironweb10/mediafire_bulk_downloader.git
     ```
 
 2. Navigate into the project directory:
@@ -56,6 +55,8 @@ pip install git+https://github.com/NicKoehler/mediafire_bulk_downloader.git
 Run the script with the following command:
 
 ```bash
+python mediafire.py
+or
 python mediafire.py <mediafire_url> [-o OUTPUT] [-t THREADS]
 ```
 
@@ -67,6 +68,8 @@ Example usage:
 
 ```bash
 python mediafire.py https://www.mediafire.com/folder/example_folder -o /path/to/output/folder -t 20
+or
+python mediafire.py
 ```
 
 ## Notes
